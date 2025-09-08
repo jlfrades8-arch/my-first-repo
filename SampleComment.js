@@ -27,7 +27,7 @@ export default function SampleComment() {
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
-          placeholder="Write a comment..."
+          placeholder="Write a comment...."
           value={comment}
           onChangeText={setComment}
         />
