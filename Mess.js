@@ -74,7 +74,7 @@ export default function Mess() {
 
 const styles = StyleSheet.create({
   container: {
-    width: "100%",
+    width: "95%",
     flex: 1,
     backgroundColor: '#fff',
   },
@@ -88,9 +88,8 @@ const styles = StyleSheet.create({
     marginVertical: 4,
     marginHorizontal: 12,
     borderRadius: 12,
-    alignSelf: 'flex-end',
-    maxWidth: "100%",
-    
+    alignSelf: 'flex-end',   // use flex-start for received messages
+    maxWidth: "140%",         // ✅ keeps bubble readable
   },
   messageText: {
     color: '#fff',
@@ -111,7 +110,7 @@ const styles = StyleSheet.create({
     paddingVertical: 20,
     backgroundColor: '#fff',
     borderRadius: 20,
-    fontSize: 16,
+    fontSize: 15,
     borderWidth: 1,
     borderColor: '#ccc',
   },
@@ -126,6 +125,6 @@ const styles = StyleSheet.create({
   sendButtonText: {
     color: '#fff',
     fontWeight: 'bold',
-    fontSize: 15,
+    fontSize: 16,
   },
 });

@@ -1,3 +1,4 @@
+import SampleComment from './SampleComment';
 import Mess from './Mess';
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
@@ -7,6 +8,7 @@ const App = () => {
     <View style={styles.container}>
       <Text>App</Text>
       <Mess />
+      <SampleComment/>
     </View>
   );
 };
